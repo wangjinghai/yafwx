@@ -58,7 +58,7 @@ class IndexController extends Yaf\Controller_Abstract {
 		if (strtolower($postObj->MsgType) == 'text') {
 			switch( trim($postObj->Content)){
 				case '预约':
-					$content = '您好请点击<a href="??">预约表</a>填写预约信息';
+					$content = '您好请点击<a href="http://www.wangjinghai.com/yafnew/index.php/index/form/show">预约表</a>填写预约信息';
 					break;
 				case '取消':
 					$content = '您好请点击<a href="#">取消预约表</a>填写取消信息';
